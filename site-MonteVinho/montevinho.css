@@ -14,10 +14,6 @@
     font-family: 'Times New Roman', Times, sans-serif;
 }
 
-html {
-
-}
-
 header {
     background-color: var(--color3);
     color: var(--color2);
@@ -32,6 +28,11 @@ header {
 header > h1 {
     margin-left: 15%;
 
+}
+
+header > img {
+    position: relative;
+    right: 24em;
 }
 
 header > nav > a {
@@ -70,8 +71,8 @@ nav a:hover::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 250px;
-    padding-bottom: 250px ;
+    padding-top: 200px;
+    padding-bottom: 200px ;
 }
 
 .image-ancora > a > img {
@@ -93,15 +94,31 @@ nav a:hover::after {
    
   }
   
-
-#svg_icon {
+  .circle {
+    background-color: var(--color2);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
     display: flex;
-    justify-content: center;
-    background-color: var();
     position: relative;
-    top: -150px;
-    left: 20px;
-}
+    top: 30px;
+  }
+
+  .circle > img {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+
+  }
+
+  .list > h1 {
+    color: #E5E5E5;
+    position: relative;
+    right: 10em;
+    top: 4em;
+    font-size: 40px;
+  }
 
 .list {
     background-color: var(--color2);
@@ -114,18 +131,18 @@ nav a:hover::after {
 
 .list > ol, li, a {
     color: var(--color3);
-    text-decoration: none;
     font-size: 20px;
     padding-top: 50px;
-    
+    text-decoration: none;
 }
+
 .list {
     overflow: hidden; 
 }
   
 .list {
     width: 100%;
-    height: 500px;
+    height: 650px;
     transition: transform 0.5s; 
   }
   
@@ -136,4 +153,170 @@ nav a:hover::after {
   
 /*main*/
 
+.comunity-partiner{
+    background-color: #283A2C;
+    display: grid;
+    padding-top: 200px;
+    height: 900px;
+}
 
+.comunity-partiner > p {
+    color: var(--color2);
+    width: 450px;
+    text-align: justify;
+    font-size: 20px;
+    margin: auto;
+    position: relative;
+    top: -40em;
+    left: 25%;
+}
+
+#vinicula {
+    margin-left: 10%;
+    width: 700px;
+}
+
+#colhedores {
+    width: 500px;
+    margin-left: 30%;
+}
+#colheitadeira {
+    width: 500px;
+    position: relative;
+    left: 250px;
+    top: -150px;
+}
+
+.container {
+    position: relative;
+    width: 300px; 
+    height: 200px;
+    margin-top: 250px;
+  }
+  
+  #rose {
+    width: 600px;
+    height: 500px;
+    margin-left: 15em;
+  }
+  
+  .texto-oculto {
+    position: absolute;
+    top: 0;
+    left: 12em;
+    width: 600px;
+    height: 500px;
+    font-size: 20px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease; 
+  }
+  
+  .container:hover .texto-oculto {
+    opacity: 1;
+  }
+  
+  .container2 {
+    position: relative;
+    width: 300px; 
+    height: 200px; 
+    top: -12.5em;
+  }
+  
+  #rose2 {
+    width: 600px;
+    height: 500px;
+    margin-left: 65em;
+
+  }
+  
+  .texto-oculto2 {
+    position: absolute;
+    top: -0.0em;
+    left: 52em;
+    width: 600px;
+    height: 500px;
+    font-size: 20px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease; 
+  }
+  
+  .container2:hover .texto-oculto2 {
+    opacity: 1;
+  }
+
+  .container3 {
+    position: relative;
+    width: 600px; 
+    height: 500px; 
+    top: 20em;
+    left: 15em;
+  }
+  
+  #amarelo {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .texto-oculto3 {
+    position: absolute;
+    top: 0.0em;
+    left: 0em;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease; 
+  }
+  
+  .container3:hover .texto-oculto3 {
+    opacity: 1;
+  }
+  
+
+  .container4 {
+    position: relative;
+    width: 300px; 
+    height: 200px; 
+    top: -11.5em;
+  }
+  
+  #amareloduplo {
+    width: 600px;
+    height: 500px;
+    margin-left: 65em;
+
+  }
+  
+  .texto-oculto4 {
+    position: absolute;
+    top: -0.0em;
+    left: 52em;
+    width: 600px;
+    height: 500px;
+    font-size: 20px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease; 
+  }
+  
+  .container4:hover .texto-oculto4 {
+    opacity: 1;
+  }
