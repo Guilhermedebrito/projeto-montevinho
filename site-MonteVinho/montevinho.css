@@ -15,11 +15,11 @@
 }
 
 html {
-background-color: var(--color3);
+
 }
 
 header {
-    background-color: var(--color1);
+    background-color: var(--color3);
     color: var(--color2);
     width: 100%;
     height: 8em;
@@ -34,7 +34,7 @@ header > h1 {
 
 }
 
-nav > a {
+header > nav > a {
     color:var(--color2);
     position: relative;
     margin-right: 50px;
@@ -63,21 +63,77 @@ nav a:hover::after {
     opacity: 1;
 }
 
-.container {
-    width: 100Vh;
-    margin-left: 100px;
+/*navegation*/
+
+.image-ancora {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    padding-top: 250px;
+    padding-bottom: 250px ;
 }
 
-.container > img{
-    width: 40%;
-    padding-top: 100px;
+.image-ancora > a > img {
+    margin-left: 40px ;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden; 
+}
+  
+  .image-ancora img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s; 
+  }
+  
+  .image-ancora img:hover {
+    transform: scale(1.1);
+   
+  }
+  
 
+#svg_icon {
+    display: flex;
+    justify-content: center;
+    background-color: var();
+    position: relative;
+    top: -150px;
+    left: 20px;
+}
+
+.list {
+    background-color: var(--color2);
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.list > ol, li, a {
+    color: var(--color3);
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 50px;
     
-   
-   
-   
 }
+.list {
+    overflow: hidden; 
+}
+  
+.list {
+    width: 100%;
+    height: 500px;
+    transition: transform 0.5s; 
+  }
+  
+  .list li:hover {
+    transform: scale(1.1);
+   
+  }
+  
+/*main*/
+
 
