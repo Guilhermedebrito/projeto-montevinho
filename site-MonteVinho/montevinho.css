@@ -187,6 +187,10 @@ nav a:hover::after {
     top: -150px;
 }
 
+.vinhos{
+    background-image: linear-gradient( top, bottom #B84A62 #8D876F) ;
+}
+
 .container {
     position: relative;
     width: 300px; 
