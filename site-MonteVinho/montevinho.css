@@ -4,7 +4,7 @@
 
 :root {
     --color1: #283A2C;
-    --color2: #8D876F;
+    --color2: #8d7d45;
     --color3: #E5E5E5;
     --font-family: 'Lobster', cursive;
 }
@@ -30,13 +30,9 @@ header > h1 {
 
 }
 
-header > img {
-    position: relative;
-    right: 24em;
-}
-
 header > nav > a {
     color:var(--color2);
+    font-size: 18px;
     position: relative;
     margin-right: 50px;
     right: 10em;
@@ -67,6 +63,7 @@ nav a:hover::after {
 /*navegation*/
 
 .image-ancora {
+  background-color: #ffff;
     width: 100%;
     display: flex;
     align-items: center;
@@ -112,14 +109,6 @@ nav a:hover::after {
 
   }
 
-  .list > h1 {
-    color: #E5E5E5;
-    position: relative;
-    right: 10em;
-    top: 4em;
-    font-size: 40px;
-  }
-
 .list {
     background-color: var(--color2);
     width: 100%;
@@ -153,174 +142,79 @@ nav a:hover::after {
   
 /*main*/
 
-.comunity-partiner{
-    background-color: #283A2C;
-    display: grid;
-    padding-top: 200px;
-    height: 900px;
+.comunity {
+  background-color: var(--color3);
+  color: #8d7d45;
+  font-size: 20px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ justify-content: space-evenly;
 }
 
-.comunity-partiner > p {
-    color: var(--color2);
-    width: 450px;
-    text-align: justify;
-    font-size: 20px;
-    margin: auto;
-    position: relative;
-    top: -40em;
-    left: 25%;
-}
-
-#vinicula {
-    margin-left: 10%;
-    width: 700px;
-}
-
-#colhedores {
-    width: 500px;
-    margin-left: 30%;
-}
-#colheitadeira {
-    width: 500px;
-    position: relative;
-    left: 250px;
-    top: -150px;
-}
-
-.vinhos{
-    background-image: linear-gradient( top, bottom #B84A62 #8D876F) ;
-}
-
-.container {
-    position: relative;
-    width: 300px; 
-    height: 200px;
-    margin-top: 250px;
-  }
+.comunity > h3 {
+  padding-top: 50px;
+ font-size: 40px;
   
-  #rose {
-    width: 600px;
-    height: 500px;
-    margin-left: 15em;
-  }
-  
-  .texto-oculto {
-    position: absolute;
-    top: 0;
-    left: 12em;
-    width: 600px;
-    height: 500px;
-    font-size: 20px;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: #fff; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.5s ease; 
-  }
-  
-  .container:hover .texto-oculto {
+}
+.comunity > p {
+  width: 450px;
+  padding-top: 50px;
+}
+
+.container_vinhos {
+  background-image: linear-gradient(to bottom, #8d7d45, #283A2C);
+  width: 100vw;
+  height: 900px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.container_vinhos > img {
+  width: 600px;
+  height: 400px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
     opacity: 1;
-  }
-  
-  .container2 {
-    position: relative;
-    width: 300px; 
-    height: 200px; 
-    top: -12.5em;
-  }
-  
-  #rose2 {
-    width: 600px;
-    height: 500px;
-    margin-left: 65em;
+    background: transparent;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+::-webkit-scrollbar-thumb {
+    background: #283A2C;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-track {
+    background-color: #E5E5E5;
+}
+::selection {
+    background: #283A2C;
+    color: white;
+}
+::selection {
+    background: #000;
+    color: white;
+}
 
-  }
-  
-  .texto-oculto2 {
-    position: absolute;
-    top: -0.0em;
-    left: 52em;
-    width: 600px;
-    height: 500px;
-    font-size: 20px;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: #fff; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.5s ease; 
-  }
-  
-  .container2:hover .texto-oculto2 {
-    opacity: 1;
-  }
+.linha {
+  background-image:linear-gradient(to right, #8d7d45, #283A2C);
+  height: 2px;
+}
 
-  .container3 {
-    position: relative;
-    width: 600px; 
-    height: 500px; 
-    top: 20em;
-    left: 15em;
-  }
-  
-  #amarelo {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .texto-oculto3 {
-    position: absolute;
-    top: 0.0em;
-    left: 0em;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: #fff; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.3s ease; 
-  }
-  
-  .container3:hover .texto-oculto3 {
-    opacity: 1;
-  }
-  
+footer {
 
-  .container4 {
-    position: relative;
-    width: 300px; 
-    height: 200px; 
-    top: -11.5em;
-  }
+  background-color: #283A2C;
+  color: var(--color3);
+  width: 100vw;
+  height: 400px;
   
-  #amareloduplo {
-    width: 600px;
-    height: 500px;
-    margin-left: 65em;
+}
 
-  }
-  
-  .texto-oculto4 {
-    position: absolute;
-    top: -0.0em;
-    left: 52em;
-    width: 600px;
-    height: 500px;
-    font-size: 20px;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: #fff; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.5s ease; 
-  }
-  
-  .container4:hover .texto-oculto4 {
-    opacity: 1;
-  }
