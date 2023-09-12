@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+
+@media  screen and (max-width: 900px) {
+
+    .image-ancora {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    
+}
+
+@media  screen and (max-width: 400px) {
+
+    .image-ancora {
+        display: flex;    
+        flex-direction: column;
+    }
+    
+}
+
+
+@media  screen and (max-width: 900px) {
+
+    .comunity {
+        display: flex;    
+        flex-direction: column;
+    }
+    
+}
+
+@media  screen and (max-width: 500px) {
+
+    .comunity > p {
+        padding-top: auto;
+        width: 300px;
+    }
+    
+}
+
+
+
+@media  screen and (max-width: 1215px) {
+
+    .container-vinhos > img{
+        display: none;
+    }
+    
+}
+
