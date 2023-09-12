@@ -1,2 +1,2 @@
 # projeto-montevinho
-https://guilhermedebrito.github.io/projeto-montevinho/
+Projeto de vinhedo fictício criado para exercitar meus aprendizados. 
