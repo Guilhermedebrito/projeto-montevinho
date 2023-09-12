@@ -17,7 +17,7 @@
 header {
     background-color: var(--color3);
     color: var(--color2);
-    width: 100%;
+    width: 100vw;
     height: 8em;
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@ nav a:hover::after {
 
 .image-ancora {
     background-color: #ffff;
-    width: 100%;
+    width: 100vw;
     height: 600px ;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ nav a:hover::after {
 
 .list {
     background-color: #7f7657;
-    width: 100%;
+    width: 100vw;
     height: 400px;
     margin: auto;
     display: flex;
@@ -184,7 +184,7 @@ nav a:hover::after {
 .cadastro {
   color: var(--color1);
   background-color: #7f7657;
-  width: 100%;
+  width: 100vw;
   height: 40vh;
   display: grid;
   justify-content: center;
@@ -222,15 +222,6 @@ nav a:hover::after {
   border: 2px solid #283A2C;
   border-radius: 25px;
 }
-
-#submit a:hover{
-  background-color: #273d2c;
-}
-
-.linha {
-  background-image:linear-gradient(to right, #8d7d45, #283A2C);
-  height: 2px;
-  }
 
 footer {
   color: #8d7d45;
