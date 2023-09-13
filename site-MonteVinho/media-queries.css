@@ -52,30 +52,11 @@
 
     .comunity > p {
         padding-top: auto;
-        width: 300px;
+        width: 400px;
     }
     
 }
 
-
-@media screen and (max-width: 630px) {
-
-    .container_vinhos img {
-        display: flex;    
-        flex-direction: column;
-        width: 400px;
-        padding-top: 400px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-
-    .container_vinhos {
-        display: flex;    
-        flex-direction: column;
-        padding-top: 400px;
-    }
-}
 
 @media screen and (max-width: 1220px) {
 
@@ -91,34 +72,42 @@
 @media screen and (max-width: 1220px) {
 
     .container_vinhos > img {
-       width: 600px;
-       margin: auto;
-       padding-top: 120px;
+        width: 400px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .container_vinhos > img {
+        width: 600px;
+        height: 450px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1420px) {
+
+    .container_vinhos {
+      padding-bottom: 600px;
+
     }   
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 1420px) {
 
-    .cadastro > h2 {
-       font-size: 25px;
-       width: 350px;
-       padding-bottom: 30px;
-       margin-left: 50px;
-    }
+    .container_vinhos > img {
+       width: 600px;
+       height: 450px;
+       margin: auto;
+       padding-top: 100px;
+
+    }   
+
 }
 
-@media screen and (max-width: 630px) {
-
-    .cadastro > h2 {
-       font-size: 25px;
-       width: 350px;
-       padding-bottom: 30px;
-       margin-left: 50px;
-    }
-}
-
-@media screen and (max-width: 1220px) {
+@media screen and (min-width: 1220px) {
 
     .cadastro > h2 {
        font-size: 30px;
@@ -215,6 +204,38 @@
 }
 
 @media screen and (max-width: 500px) {
+
+    .icon > a {
+       display: none;
+      
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .icon > a {
+       display: none;
+      
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .icon > a {
+       display: none;
+      
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .icon > a {
+       display: none;
+      
+    }
+}
+
+@media screen and (max-width: 700px) {
 
     .icon > a {
        display: none;
