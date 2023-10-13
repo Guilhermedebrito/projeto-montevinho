@@ -6,29 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="montevinho.css" media="screen">
     <link rel="stylesheet" type="text/css" href="media-queries.css" media="screen">
     <title>Monte Vinho</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1> <em>MonteVinho</em> </h1>
-        <nav>
-            <a href="#" target="_blank"><em>Sobre Nós</em></a>
-            <a href="#" target="_blank"><em>Cadastre-se</em></a>
-            <a href="#" target="_blank"><em>Suporte</em></a>
-            <a href="#" target="_blank"><em>Conteúdo</em></a>
-        </nav>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Cadastre-se</a></li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Conteúdo</a></li>
+            </ul>
+        </menu>
     </header>
 
     <main>
-        <nav class="image-ancora">
-            <a  href="história-do-vinhedo.html" target="_blank"><img src="imagens/imagem3_esquerda.jpg" alt="uvas no pomar"></a>
-            <a  href="#" target="_blank"><img src="imagens/imagem1_topo.png" alt="vinhos no armazém"></a>
-            <a  href="#" target="_blank"><img src="imagens/imagem2_direita.jpg" alt="Vinícula vista de cima"></a>
-            <a  href="#" target="_blank"><img src="imagens/garrafa-p-background.jpg" alt="vinho"></a>
-        </nav>
+        <picture>
+            <div class="carrossel-container">
+                <div class="carrossel">
+                    <div class="carrossel-item">
+                        <img src="imagens/colheitadeira.jpg" alt="Imagem 1" width="600px">
+                    </div>
+                    <div class="carrossel-item">
+                        <img src="imagens/cominidade parceira1.jpg" alt="Imagem 2" width="600px">
+                    </div>
+                    <div class="carrossel-item">
+                        <img src="imagens/vinicula.jpg" alt="Imagem 3" width="700px">
+                    </div>
+                    <div class="carrossel-item">
+                        <img src="imagens/uvas amassadas.jpg" alt="Imagem 2" width="500px">
+                    </div>
+                    <div class="carrossel-item">
+                        <img src="imagens/vinho ao por do sol.jpg" alt="Imagem 2" width="500px">
+                    </div>
+                    <div class="carrossel-item">
+                        <img src="imagens/comunidade2.jpg" alt="Imagem 2" width="500px">
+                    </div>
+                </div>
+            </div>
+        </picture>
 
         <div class="circle">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABiElEQVR4nO2XvUvDQBiHI6KiuHQRhM6CuOggfv0FSlFwcnJxENxd3Fz8GEQpIrjo4urk5Ae2g5vQRcHNSRykilg/ED8eOXiFNG2ay13SLH3gIDn4ve+TcNwljtNAE2AKyAOvMnLApFMPgDX8WanHkweRiVMgH9gezuMUKHmajQJjnrmXOAWe3Z1c826e4hQ40xD4BFaBNLAATABNUQmMawj88+O6LgDdUUks1xDwrokjGYpboAhcAjM2Aik/gSpCbTKqsWjSvB240BUIeEP3YZs3A4e11oDpva7AnuQejAqU1wqXBzKSeQNGkhDISWbeqEAEAkXJpJISeJRM2rSprcCxZJaSEpiWjDqMuiybd0qtkulBtG8pMCR1rsMGe4APCc9aCGSlxqZJeE7C78CAQb5fjutvoC+0gALYFYk79VYcTZSwZBRZ3VwFcrqduHbGdWBQLS6fBad2zm15csUp0OrYAHQAB8Av+nwBW0CLVXM3wDCwA9zID4oX9RF7BWwAvWXhBg2cSv4A9zm+PUvK95UAAAAASUVORK5CYII=">
@@ -148,4 +170,5 @@
     </footer>
 
 </body>
+<script src="js/myscript-carrossel.js"></script>
 </html>

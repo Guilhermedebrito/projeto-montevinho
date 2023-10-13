@@ -6,6 +6,36 @@
     padding: 0px;
 }
 
+@media screen and (min-width: 900px) {
+
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    menu > ul > li > a {
+        display: flex;    
+        flex-direction: column;
+        padding-top: 0;
+        align-items: center;
+
+    } 
+
+    ul {
+        background-color: var(--color3);
+        display: ;
+    }
+}
+
 @media  screen and (max-width: 700px) {
 
     .image-ancora {
