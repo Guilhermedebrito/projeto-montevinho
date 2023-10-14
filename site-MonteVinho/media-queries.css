@@ -88,6 +88,17 @@
     
 }
 
+@media screen and (max-width: 410px) {
+    .comunity > p {
+        width: 85vw;
+    }
+
+    .comunity > h3 {
+        margin-left: 20px;
+    }
+
+}
+
 
 @media screen and (max-width: 1220px) {
 
@@ -135,6 +146,13 @@
        padding-top: 100px;
 
     }   
+} 
+
+@media screen and (max-width: 410px) {
+
+    .container_vinhos > img { 
+        width: 310px;
+    }   
 
 }
 
@@ -147,15 +165,45 @@
     }
 }
 
+@media screen and (min-width: 300px) {
+
+    .cadastro > h2 { 
+        width: 85vw;
+        font-size: 40px;
+        margin-left: 30px;
+    }   
+
+}
+
+@media screen and (max-width: 885px) {
+
+    .cadastro > h2 { 
+        width: 85vw;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        font-size: 30px;
+       
+    }   
+
+}
+
+@media screen and (min-width: 300px) {
+
+    #email { 
+        margin-left: 30px;  
+        width: 250px;   
+    }   
+
+    #submit {
+        margin-left: 30px; 
+    }
+}
 
 @media screen and (max-width: 630px) {
 
     #email {
        margin-left: 50px;
     }
-}
-
-@media screen and (max-width: 630px) {
 
     #submit {
         margin-top: 20px;
@@ -192,15 +240,12 @@
        font-size: 20px;
        margin-left: 30px;
     }
-}
-
-@media screen and (max-width: 500px) {
-
     .col1_footer > a {
-       font-size: 17px;
-       margin-left: 25px;
-    }
+        font-size: 17px;
+        margin-left: 25px;
+     }
 }
+
 
 @media screen and (max-width: 500px) {
 
@@ -208,6 +253,11 @@
        font-size: 20px;
        margin-left: 25px;
     }
+
+    .col2_footer > a {
+        font-size: 17px;
+        margin-left: 25px;
+     }
 }
 
 @media screen and (max-width: 500px) {
@@ -216,22 +266,11 @@
        font-size: 20px;
        margin-left: 20px;
     }
-}
-
-@media screen and (max-width: 500px) {
-
-    .col2_footer > a {
-       font-size: 17px;
-       margin-left: 25px;
-    }
-}
-
-@media screen and (min-width: 500px) {
 
     .col3_footer > a {
-       font-size: 17px;
-       margin-left: 20px;
-    }
+        font-size: 17px;
+        margin-left: 20px;
+     }
 }
 
 @media screen and (max-width: 500px) {
@@ -243,14 +282,6 @@
 }
 
 @media screen and (max-width: 400px) {
-
-    .icon > a {
-       display: none;
-      
-    }
-}
-
-@media screen and (max-width: 500px) {
 
     .icon > a {
        display: none;
