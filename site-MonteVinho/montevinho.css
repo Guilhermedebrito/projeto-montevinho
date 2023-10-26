@@ -1,17 +1,21 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Lobster&display=swap');
+
 
 
 :root {
     --color1: #283A2C;
     --color2: #8d7d45;
     --color3: #E5E5E5;
-    --font-family: 'Lobster', cursive;
+    --optionBackground:url(./imagens/colheitadeira.jpg);
 }
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, sans-serif;
+    font-family: 'Montserrat', serif;
 }
 
 header {
@@ -27,13 +31,14 @@ header {
 
 header > h1 {
   margin-left: 15%;
+  
 }
 
 span#burguer {
-  display: block;
+  display: grid;
   cursor: pointer;
   margin-right: 15%;
-  position: fixed;
+  position: inherit;
   left: 80vw;
 }
 
@@ -47,14 +52,16 @@ menu {
 }
 
 menu#itens > ul > li > a {
-    color:var(--color2);
-    font-size: 18px;
-    position: relative;
-    margin-right: 40px;
-    right: 5%;
-    text-decoration: none;
-    font-weight: bold;
-    z-index: 2;
+
+  color:var(--color2);
+  font-size: 18px; 
+  font-style: italic;
+  position: relative;
+  margin-right: 40px;
+  right: 5%;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 2;
    
 }
 
@@ -181,13 +188,15 @@ menu a::after {
   justify-content: space-around;
   padding-top: 150px;
   padding-bottom: 300px;
+  
 }
 
 .container_vinhos > img {
   width: 600px;
   height: 400px;
-
+  
 }
+
 .cadastro {
   color: var(--color1);
   background-color: #7f7657;
@@ -257,10 +266,27 @@ footer {
   display: grid;
 }
 
+.col2_footer a:hover {
+
+  transform: scale(1.1);
+ 
+}
+
+.col1_footer a:hover {
+
+  transform: scale(1.1);
+ 
+}
 
 .icon > a {
   display: grid;
   padding-top: 40px;
+}
+
+.icon a:hover {
+
+  transform: scale(1.1);
+ 
 }
 
 ::-webkit-scrollbar {
