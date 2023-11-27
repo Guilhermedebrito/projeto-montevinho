@@ -84,7 +84,33 @@ menu a::after {
   opacity: 1;
 }
 
+/* carrossel */
 
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  width: 500%; /* 5 imagens no total */
+  transition: transform 0.3s ease-in-out;
+  cursor: grab;
+}
+
+.carousel-inner:active {
+  cursor: grabbing;
+}
+
+.carousel-item {
+  flex-basis: 20%; /* 20% de largura para cada imagem */
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
 .circle {
   background-color: #7f7657;
   width: 100px;
